@@ -39,3 +39,16 @@ subversion and gives some ideas how to do optimizations.
  * Language: English
  * Directory: numerical_physics/
  * Occasion: Lehrstuhlseminar, Theoretische Physik I, Uni Augsburg
+
+
+Einführung in die Welt der Milrocontroller
+==========================================
+
+Als Microcontroller wird ein Chip bezeichnet, der neben Prozessor und
+Arbeitsspeicher noch weitere Peripherie mitbringt. In diesem Vortrag sollen die
+einfachen Microcontroller der AVR-Reihe wie der Atmega32 beschrieben werden.
+
+ * Language: German
+ * Directory: microcontroller/
+ * Occasion: Microcontroller-Kurs des ACF, Vortrag im Rahmen eines
+   Vereinstreffens der Linux User Group Augsburg (LUGA)
