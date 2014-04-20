@@ -1,0 +1,249 @@
+\documentclass[
+%	pdftex,%              PDFTex verwenden
+	a4paper,%             A4 Papier
+	twoside,%             Zweiseitig/Einseitigtotocnumbered,%    Literaturverzeichnis nummeriert einfügen
+%	idxtotoc,%            Index ins Verzeichnis einfügen
+	index=totoc,
+%	halfparskip,%         Europäischer Satz mit abstand zwischen Absätzen
+	parskip=half,
+ 	chapterprefix,%       Kapitel anschreiben als Kapitel
+	headsepline,%         Linie nach Kopfzeile
+%	footsepline,%         Linie vor Fusszeile
+	13pt,%                Größere Schrift, besser lesbar am bildschrim
+	BCOR5mm,%							5mm Abstand Rand
+	fleqn,%								linksbündig abgesetzte Formeln
+  openany,%              keine leeren seiten zwischen kapiteln
+  ngerman
+]{scrbook}
+
+\usepackage[ngerman]{babel}
+\usepackage{setspace}
+\usepackage{a4wide}					 				%Bessere Ausnutzung der DinA4 größe ohne Randbemerkungen, auch a4 möglich
+\usepackage[T1]{fontenc}						%Europäischer Schriftsatz
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}								%Einbindung von Graphiken
+\usepackage{amssymb,amsmath}				%Mathe und Schriftsatz
+%\usepackage{amsfonts}
+\usepackage{prettyref}
+\usepackage{xspace}
+\usepackage{colortbl}
+\usepackage[format=plain,margin=1.5cm,small]{caption} %Legenden: mergin versetzt beitseitig nach innen, format=plain verhindert einrücken (einfacher blocksatz)
+
+%Graphikerweiterungen für eps-Graphiken
+\usepackage{subfigure}
+%\usepackage{thumbpdf}
+\usepackage{epsfig}
+\usepackage{rotating}
+
+\setlength{\parindent}{0.0cm}				%Abstand bei Absatzeinrücken (falls unerwünscht, dann \noident)
+
+%\usepackage[numbers,sort&compress]{natbib}           % Einfache Anpassung der Bibliographie und Zitierstile
+%\usepackage{eurosym}             % Euro-Symbol (offiziell)
+%
+% Type 1 Fonts für bessere darstellung in PDF verwenden.
+%
+\usepackage{courier}            % Courier als \ttdefault
+%\usepackage{}    				
+% skalierte Helvetica als \sfdefault [scaled=1] (avant,helvet(mit scaled=...), bookman, utopia, charter, pifont, newcent)
+
+
+\setkomafont{sectioning}{\normalfont\bfseries}
+\setkomafont{captionlabel}{\normalfont\bfseries}
+%\setkomafont{pagehead}{\normalfont\itshape}
+\setkomafont{descriptionlabel}{\normalfont\bfseries}
+
+% Caption-Stil
+% \setlength{\captionindent}{3cm}
+% \renewcommand{\captionlabelfont}{\bfseries \sffamily}
+
+% Tabellen:
+
+% gr\"{o}{\ss}ere Zeilenh\"{o}he
+%\setlength{\extrarowheight}{0.2cm}
+
+% Neue Spaltenstile, f\"{u}r Dezimalzahlen
+\newcolumntype{1}{D{.}{.}{1.13}}
+% und grau hinterlegte Tabellenzellen
+\newcolumntype{G}{>{\columncolor[gray]{0.8}}c}
+
+% Abk\"{u}rzung f\"{u}r graue Tabellenzelle
+\newcommand{\GS}[1]{\multicolumn{1}{G}{#1}}
+
+% Farbe zwischen Doppellinien aus \hhline:
+\doublerulesepcolor{white}
+
+
+\usepackage{txfonts}
+\usepackage[scaled=.92]{helvet}
+\usepackage{courier}
+
+
+% Tabelleneinbindung
+\usepackage{array}
+\usepackage{float}
+
+	%1,5 Zeilenabstand
+  \renewcommand{\baselinestretch}{1.1}
+
+	%Seite einrichten
+	%\textwidth15cm
+	%\topmargin0pt
+	%\oddsidemargin0.86cm
+	%\evensidemargin0.06cm
+	%\headheight0.7cm
+	%\headsep1cm
+	%\textheight22.7cm
+	%\footskip0.7cm
+	
+	%Kopf und Fusszeile einrichten
+%	\markright{\thesection}
+%	\pagestyle{headings}
+%\setlength{\oddsidemargin}{0.46cm}
+%\setlength{\textwidth}{16cm}
+
+
+% Mehr Platz für Bilder auf den Seiten:
+\renewcommand{\topfraction}{.95}
+\renewcommand{\bottomfraction}{.95}
+\renewcommand{\textfraction}{.05}
+
+% \setlength{\intextsep}{5ex plus 1ex minus 1ex}
+
+% Erstellung von Index
+\usepackage{makeidx}
+\makeindex
+\definecolor{ForestGreen}{rgb}{0, 0.545, 0} %definiert dunkleres grün mit name in rgb (werte zwischen 0 und 1)
+\usepackage{hyphenat} %Silbentrennung verhindern mit: \nohyphens{***}
+
+\usepackage{hyperref}  % unbedingt als letztes Paket laden
+
+\title{Physik}
+\author{Pollak Christian}
+\date{\today}
+
+\newcommand{\mb}{\mu_\mathrm{B}} 
+
+\begin{document}
+	
+
+\subsection{Übersicht}
+ESR, NMR:
+\begin{itemize}
+\item resonante Absorption von Mikrowellenstrahlung durch paramagn. Ionen, Moleküle$\dots$ in einem statischen Magnetfeld
+\item Aufspaltung der Energieniveaus durch statisches Magnetfeld
+\item Anregung von Übergängen zwischen Energieniveaus durch oszillierendes Magnetfeld
+\item ESR: magnet. Dipole nötig, Oszillationsfrequenz im Mikrowellenbereich
+\end{itemize}
+
+Bloch-Gleichungen:
+\begin{itemize}
+\item Bewegungsgleichungen für Magnetisierung $\vec M$
+\item Änderung der Magnetisierung in Abhängigkeit äußerer Felder
+\item phänomenologische, einfachst mögliche Beschreibung
+\end{itemize}
+
+
+\subsection{Übersicht}
+
+\begin{itemize}
+\item für ESR magnet. Dipole notwendig: Spin, Drehmoment
+\item magnet. Moment: Maß für die Stärke eines Dipols
+\item magnet. Moment eines Atoms: LS-Kopplung: 
+\begin{equation}
+\vec \mu = - \mb \left(\vec L + g \vec S\right) = -\gamma \hbar \vec J
+\end{equation}
+\item negatives Vorzeichen: Elektronen
+\item g: Lande-Faktor, gyromagnetisches Verhältnis
+\item klassische Rechnung $\mb$
+\begin{align}
+\hbar L &= m v r \\
+\mu &= I A = \frac{\mathrm{e}}{2\pi r/v} \pi r^2 = \frac{evr}{2} = \frac{e \hbar}{2m} L = \mb L
+\end{align}
+\item S, L, J aus Hundschen Regeln
+\item LS-Kopplung (Spin-Bahn--Kopplung) -- aus $\vec L$ und $\vec S$: $\vec J$
+\item Hamilton-Operator: $\mathcal{H} = \frac{1}{2m} \left(\vec p - q\vec A \right)^2$, $\vec B = \nabla \times \vec A$, $\vec A = -\frac{1}{2} \vec r \times \vec B$
+  \item Hamilton-Operator 
+  \begin{equation}
+  \mathcal{H} = -\vec\mu \cdot \vec H = g \mb \vec H \cdot \vec J = g\mb H J_z
+  \end{equation}
+\end{itemize}
+
+\subsection{Zeeman-Aufspaltung}
+
+\begin{itemize}
+\item $J+1$-fache Aufspaltung
+\item Aufhebung der Entartung
+\item äquidistante Aufspaltungen
+\item nur gültig bei schwachen Feldern
+\end{itemize}
+
+\subsection{Bewegungsgleichungen}
+
+\begin{itemize}
+\item Integration d$\tau$ ueber Raum und Spins
+\item Erwartungswert eines Dipols
+\item Heisenbersche Bewegungsgleichungen, Ehrenfest-Theorem
+\item $\mu$ ist nicht zeitabhängig $\Rightarrow$ Einsetzen
+    \begin{align}
+    \frac{\mathrm{d}}{\mathrm{d}t} \langle \vec \mu \rangle &= \frac{\mathrm{i}}{\hbar} \langle \left[\mathcal{H}, \vec \mu\right]\rangle
+    \\ &=-\mathrm{i}\gamma^2\hbar H \langle [ J_z, \vec J ]\rangle
+    \\ &=\gamma^2 \hbar H \langle J_y \vec e_x - J_x \vec e_y \rangle
+    \\ &= \gamma H \langle \mu_x \vec e_y - \mu_y \vec e_x \rangle
+    \\ &=\gamma \vec H \times \langle \vec \mu \rangle
+    \end{align}
+\item gleiche Bewegungsgleichung wie klassischer Dipol
+\item Dipole wechselwirken nicht miteinander
+\item isotropes System (kein Kristallfeld)
+\item Gültigkeit der LS-Kopplung ($\vec J$)
+\item auch gültig für Magnetisierung
+\end{itemize}
+
+\subsection{statisches Magnetfeld}
+
+\begin{itemize}
+\item statisches Magnetfeld $\vec H = H \vec e_z$
+\item Bewegungsgleichungen
+  \begin{align}
+  \dot \mu_x &= -\gamma H \mu_y \\
+  \dot \mu_y &= \gamma H \mu_x \\
+  \dot \mu_z &= 0
+  \end{align}
+\item harmonischer Oszillator
+\begin{align}
+\ddot \mu_x &= -\gamma H \dot \mu_y = -(\gamma H)^2 \mu_x \\
+\ddot \mu_y &= \gamma H \dot \mu_y = -(\gamma H)^2 \mu_y
+\end{align}
+\end{itemize}
+
+
+\subsection{Lösung im rotierenden Magnetfeld}
+
+\begin{itemize}
+\item magnet. Resonanzexperimente benutzen zeitl. veränderliche Felder
+\item experimentell üblich: Feld in $z$-Richtung konstant, $\cos{\omega t}$ in $x$-Richtung
+\item Transformation
+\begin{align}
+\frac{\mathrm{d}\vec \mu}{\mathrm{d}t} &= \frac{\mathrm{d}\vec \mu'}{\mathrm{d}t} + \vec \omega \times \vec \mu \\
+\frac{\mathrm{d}\vec \mu'}{\mathrm{d}t} &= \frac{\mathrm{d}\vec \mu}{\mathrm{d}t} - \vec \omega \times \vec \mu = \gamma \vec H \times \vec \mu - \vec \omega \times \vec \mu\\
+ &= \gamma \underbrace{\left( \vec H - \frac{\vec \omega}{\gamma}\right)}_{\vec H_e} \times \vec \mu
+\end{align}
+\item $f = \frac{\gamma H_1}{2\pi}$, $\Rightarrow \frac{T}{2} = \frac{\pi}{\gamma H_1}$
+\end{itemize}
+
+
+\subsection{Bloch-Gleichungen}
+
+\begin{itemize}
+\item bei Resonanzexperimenten: Resonanz durchlaufen
+\item eine Möglichkeit: $90^\mathrm{o}$-Puls
+\item bis jetzt: unendliche Präzession
+\item Präzession ist nicht kohärent über die ganze Probe
+\item tatsächlich: Abnahme der Präzession
+\item Einführen von Relaxationstermen
+\item Annahme linearer Antwort (mathematisch einfach)
+\item statistisches Problem $\Rightarrow$ Magnetisierung
+\item Energie nur abhängig von $M_z$ $\Rightarrow$ Kopplung ans Gitter (Spin-Gitter-Relaxation)
+\item $x$ und $y$ symmetrisch
+\item Spin-Spin-Relaxations meistens schneller als Spin-Gitter-Relaxation
+\end{itemize}
+\end{document}
