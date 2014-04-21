@@ -52,3 +52,25 @@ einfachen Microcontroller der AVR-Reihe wie der Atmega32 beschrieben werden.
  * Directory: microcontroller/
  * Occasion: Microcontroller-Kurs des ACF, Vortrag im Rahmen eines
    Vereinstreffens der Linux User Group Augsburg (LUGA)
+
+
+Gnublin
+=======
+
+Gnublin ist ein kleines, energiesparendes Embedded Linux Board. Der Vortrag
+beschreibt Gnublin und Embedded Linux.
+
+ * Language: German
+ * Directory: gnublin/
+ * Occacsion: Treffen der Linux User Group Augsburg (LUGA)
+
+
+Kryptocalypse Now
+=================
+
+Ein kurzer Vortrag über Kryptographie und einiger der Programme, die im Zuge
+der Snowden-Enthüllungen über die NSA bekannt wurden.
+
+ * Language: German
+ * Directory: kryptocalypse_now/
+ * Occacsion: Treffen der Linux User Group Augsburg (LUGA)
