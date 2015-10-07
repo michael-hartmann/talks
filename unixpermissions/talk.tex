@@ -113,7 +113,7 @@
     \begin{center}
     \only<1>
     {
-        \Huge Wie greift dann ein Prozess auf Harware zu?
+        \Huge Wie greift dann ein Prozess auf Hardware zu?
     }
     \only<2>
     {
@@ -251,7 +251,7 @@
 \frame {
     \frametitle{setuid/setgid}
 
-    setuid:
+    setuid (\texttt{s}):
     \begin{itemize}
     \item Dateien: ausführbares Programm wird mit Rechten des Besitzers der Datei ausgeführt
     \item Verzeichnisse: ignoriert (Linux)
@@ -260,7 +260,7 @@
     \vfill
     \pause
 
-    setgid:
+    setgid (\texttt{s}):
     \begin{itemize}
     \item Dateien: ausführbares Programm wird mit Rechten der Gruppe der Datei ausgeführt
     \item Verzeichnisse: neu erstellte Dateien erben die Gruppen-ID
@@ -269,7 +269,7 @@
     \vfill
     \pause
 
-    sticky bit:
+    sticky bit (\texttt{t}):
     \begin{itemize}
     \item Dateien: ausführbares Programm bleibt nach Beenden im Arbeitsspeicher (historisch)
     \item Verzeichnisse: nur noch der Besitzer einer Datei darf diese löschen (Beispiel: \texttt{/tmp})
