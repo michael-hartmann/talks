@@ -74,3 +74,15 @@ der Snowden-Enthüllungen über die NSA bekannt wurden.
  * Language: German
  * Directory: kryptocalypse_now/
  * Occacsion: Treffen der Linux User Group Augsburg (LUGA)
+
+
+ Quantum Game Theory
+ ===================
+
+ Vortrag im Kaffeeseminar über eine spezielles Spiel das zeigt, das
+ quantenmechanische Strategien bessere Ergebnisse als klassische Strategien
+ liegern können.
+
+  * Language: German
+  * Directory: quantum_gametheory/
+  * Occasion: Kaffeeseminar
