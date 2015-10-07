@@ -76,6 +76,11 @@
         \begin{center}
         \includegraphics[scale=0.4]{ring.pdf}
         \end{center}
+
+        \vfill
+        \vfill
+        \noindent\rule{10cm}{0.4pt}
+        \url{https://de.wikipedia.org/wiki/Ring_\%28CPU\%29}
     }
 }
 
@@ -245,10 +250,30 @@
 
 \frame {
     \frametitle{setuid/setgid}
-}
 
-\frame {
-    \frametitle{sticky bit}
+    setuid:
+    \begin{itemize}
+    \item Dateien: ausführbares Programm wird mit Rechten des Besitzers der Datei ausgeführt
+    \item Verzeichnisse: ignoriert (Linux)
+    \end{itemize}
+
+    \vfill
+    \pause
+
+    setgid:
+    \begin{itemize}
+    \item Dateien: ausführbares Programm wird mit Rechten der Gruppe der Datei ausgeführt
+    \item Verzeichnisse: neu erstellte Dateien erben die Gruppen-ID
+    \end{itemize}
+
+    \vfill
+    \pause
+
+    sticky bit:
+    \begin{itemize}
+    \item Dateien: ausführbares Programm bleibt nach Beenden im Arbeitsspeicher (historisch)
+    \item Verzeichnisse: nur noch der Besitzer einer Datei darf diese löschen (Beispiel: \texttt{/tmp})
+    \end{itemize}
 }
 
 \frame {
