@@ -76,13 +76,23 @@ der Snowden-Enthüllungen über die NSA bekannt wurden.
  * Occacsion: Treffen der Linux User Group Augsburg (LUGA)
 
 
- Quantum Game Theory
- ===================
+Quantum Game Theory
+===================
 
- Vortrag im Kaffeeseminar über eine spezielles Spiel das zeigt, das
- quantenmechanische Strategien bessere Ergebnisse als klassische Strategien
- liegern können.
+Vortrag im Kaffeeseminar über eine spezielles Spiel das zeigt, das
+quantenmechanische Strategien bessere Ergebnisse als klassische Strategien
+liegern können.
 
-  * Language: German
-  * Directory: quantum_gametheory/
-  * Occasion: Kaffeeseminar
+ * Language: German
+ * Directory: quantum_gametheory/
+ * Occasion: Kaffeeseminar
+
+
+Ethanol - Aufnahme und Abbau
+============================
+
+Vortrag im Kaffeeseminar über die Aufnahme und den Abbau von Ethanol.
+
+ * Language: German
+ * Directory: ethanol/
+ * Occasion: Kaffeeseminar
