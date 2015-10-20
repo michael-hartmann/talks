@@ -101,7 +101,7 @@
     \nonumber
     y_1 &= -L_1 \cos\theta_1 \\
     \nonumber
-    y_2 &= -L_1 \cos\theta_1 + L_2 \cos\theta_2
+    y_2 &= -L_1 \cos\theta_1 - L_2 \cos\theta_2
     \end{align}
     \end{minipage}
 }
@@ -112,10 +112,10 @@
     \frametitle{Lagrange-Funktion}
 
     \begin{itemize}
-    \item Aufstellen der Bewegungsgleichung mit Lagrange
+    \item Aufstellen der Bewegungsgleichung mit Lagrange \\ (für $m_1=m_2\equiv m$ und $L_1=L_2\equiv L$)
     \begin{equation}
     \nonumber
-    L = T - V
+    \mathcal{L} = T - V
     \end{equation}
     \item potentielle und kinetische Energie
     \begin{align}
@@ -127,7 +127,7 @@
     \item Lagrange-Funktion
     \begin{align}
     \nonumber
-    L =& mL^2\dot{\theta}_1^2 + \frac{1}{2}mL^2\dot{\theta}_2^2 + mL^2\dot{\theta}_1\dot{\theta}_2\cos{(\theta_1-\theta_2)}  \\
+    \mathcal{L} =& mL^2\dot{\theta}_1^2 + \frac{1}{2}mL^2\dot{\theta}_2^2 + mL^2\dot{\theta}_1\dot{\theta}_2\cos{(\theta_1-\theta_2)}  \\
     \nonumber
       &- 3mgL + 2mgL\cos\theta_1 + mgL\cos\theta_2
     \end{align}
@@ -141,7 +141,7 @@
     \item Hamiltonfunktion
     \begin{equation}
     \nonumber
-    H = \sum_i \theta_i p_i - L
+    H = \sum_i \theta_i p_i - \mathcal{L}
     \end{equation}
     \item Bewegungsgleichungen
     \begin{align}
@@ -214,7 +214,7 @@
     \frametitle{Poincaré-Schnitte für das Doppelpendel}
 
     \begin{itemize}
-        \item abhängig von Parametern: $E$, $L_1$, $L_2$
+        \item abhängig von Parametern: $E$, $L_1$, $L_2$, $m_1$, $m_2$, $g$
         \item 4 Freiheitsgrade: 2 Impulse, 2 Winkel
         \item Energieerhaltung: Trajektorien auf Hyperfläche eingeschränkt
         \item Poincaré-Bedingung $\theta_2 = 0$: noch zwei Variablen
