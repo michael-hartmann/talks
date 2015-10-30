@@ -91,8 +91,8 @@ liegern können.
 Ethanol - Aufnahme und Abbau
 ============================
 
-Vortrag im Kaffeeseminar über die Aufnahme und den Abbau von Ethanol.
+Vortrag über die logistische Abbildung.
 
  * Language: German
- * Directory: ethanol/
+ * Directory: logisticmap/
  * Occasion: Kaffeeseminar
