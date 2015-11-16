@@ -99,13 +99,76 @@
     \end{center}
 }
 
-\section{Bewegungsgleichungen}
+\frame {
+    \frametitle{Wovon hängt die Bewegung ab?}
 
-\section{Poincaré-Schnitte}
+    \only<2>
+    {
+    Parameter:
+    \begin{itemize}
+    \item Massen $m_1$, $m_2$
+    \item Längen $l_1$, $l_2$
+    \item Erdbeschleunigung $g$
+    \end{itemize}
+
+    \vfill
+
+    Zustand:
+    \begin{itemize}
+    \item Winkel $\theta_1$, $\theta_2$
+    \item Winkelgeschwindigkeiten $\dot \theta_1$, $\dot \theta_2$
+    \end{itemize}
+    }
+}
+
+\frame {
+    \frametitle{Phasenraum}
+
+    \only<1>
+    {
+    \begin{itemize}
+    \item Menge aller möglichen Zustände eines physikalischen Systems
+    \item Zustand: Punkt im Phasenraum
+    \item Trajektorien können sich nicht schneiden
+    \end{itemize}
+
+    \vfill
+
+    Beispiel: Pendel
+    \begin{center}
+    \includegraphics[scale=1]{images/pendulum.pdf}
+    \end{center}
+    }
+
+    \only<2>
+    {
+    Beispiel Pendel:
+
+    \begin{center}
+    \includegraphics[scale=1]{plots/phasespace.pdf}
+    \end{center}
+    }
+
+    \only<3>
+    {
+    Für das Doppelpendel:
+    \begin{itemize}
+    \item 4 Freiheitsgrade:
+    \begin{itemize}
+    \item 2 Winkel $\theta_1$, $\theta_2$
+    \item 2 Geschwindigkeiten $\dot \theta_1$, $\dot \theta_2$
+    \end{itemize}
+    \item Energieerhaltung: Trajektorien auf Hyperfläche eingeschränkt
+    \item Poincaré-Schnitt: Reduktion auf zwei Dimensionen ohne Verlust an Information
+    \end{itemize}
+    }
+}
 
 \frame {
     \frametitle{Poincaré-Schnitte}
 
+    \only<1>
+    {
     \begin{center}
     \includegraphics[scale=0.45]{images/poincare_idea.png}
     \includegraphics[scale=0.45]{images/poincare_cycle3.png}
@@ -115,35 +178,23 @@
     \hrule
     \ \\
     {\footnotesize Bildquelle: An Exploration of Chaos, Argyris, Faus, Haase}
-}
+    }
 
-\frame {
-    \frametitle{Vorteile von Poincaré-Schnitten}
+    \only<2>
+    {
+    Poincaré-Bedingung:
+    $$\theta_2 = 0, \quad \dot\theta_2 > 0$$
 
-    \begin{itemize}
-        \item Vergleich verschiedener Anfangsbedingungen
-        \item Reduktion der Dimension ohne Verlust an Informationen
-        \item qualitatives Verhalten:
-        \begin{itemize}
-            \item Fixpunkte entsprechen periodische Orbits
-            \item Unterscheidung chaotischer und regulärer Bereiche
-            \item Linien entsprechen quasiperiodischer Orbits
-        \end{itemize}
-    \end{itemize}
-}
+    \vfill
 
-\frame {
-    \frametitle{Poincaré-Schnitte für das Doppelpendel}
-
-    \begin{itemize}
-        \item abhängig von Parametern: $E$, $L_1$, $L_2$
-        \item 4 Freiheitsgrade: 2 Impulse, 2 Winkel
-        \item Energieerhaltung: Trajektorien auf Hyperfläche eingeschränkt
-        \item Poincaré-Bedingung $\theta_2 = 0$: noch zwei Variablen
-        \item Abbildung von Punkten: $$P(\theta_1^{(0)}, p_1^{(0)}) \mapsto (\theta_1^{(1)}, p_1^{(1)})$$
-        \item Durchstoßrichtung beachten!
-    \end{itemize}
-
+    Poincaré-Schnitt:
+    \begin{enumerate}
+    \item Wähle Parameter $l_1$, $l_2$, $m$, $g$
+    \item Wähle Energie $E$
+    \item Wähle Anfangsbedingungen $\theta_1(0)$, $\dot\theta_1(0)$
+    \item Berechne numerisch $\theta_1(t)$, $\dot\theta_1(t)$, $\theta_2(t)$, $\dot\theta_2(t)$ und trage Punkt ins Plot ein, wenn $\theta_2(t)=0$
+    \end{enumerate}
+    }
 }
 
 \frame {
@@ -152,30 +203,6 @@
     \begin{center}
     \includegraphics[width=0.65\textwidth]{plots/E=15.pdf}
     \end{center}
-}
-
-\frame {
-    \frametitle{Fixpunkte im Poincaré-Schnitt}
-
-    \begin{minipage}[b]{0.3\textwidth} 
-    \includegraphics[scale=0.35]{plots/E=15.pdf}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[b]{0.6\textwidth}
-    \begin{itemize}
-    \item Elliptische Fixpunkte
-    \begin{itemize}
-    \item Orbit stabil
-    \end{itemize}
-    \item Hyperbolische Fixpunkte
-    \begin{itemize}
-    \item Orbit instabil
-    \item liegt im chaotischen Bereich
-    \item anfällig gegen Störungen
-    \end{itemize}
-    \item Chaos
-    \end{itemize}
-    \end{minipage}
 }
 
 \section{Beispiele}
@@ -228,6 +255,21 @@
     links: $E=15$, $\theta_1=0.8$, $p_1=-4$ \\
     rechts: $E=15$, $\theta_1=0.8$, $p_1=-4.01$
     \end{center}
+}
+
+\frame {
+    \frametitle{Zusammenfassung}
+
+    \begin{itemize}
+        \item Vergleich verschiedener Anfangsbedingungen
+        \item Reduktion der Dimension ohne Verlust an Informationen
+        \item qualitatives Verhalten:
+        \begin{itemize}
+            \item Fixpunkte entsprechen periodische Orbits
+            \item Unterscheidung chaotischer und regulärer Bereiche
+            \item Linien entsprechen quasiperiodischer Orbits
+        \end{itemize}
+    \end{itemize}
 }
 
 
