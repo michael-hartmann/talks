@@ -26,6 +26,11 @@
 
 \definecolor{darkgreen}{rgb}{0,0.5,0}
 
+\definecolor{title}{HTML}{3333B2}
+
+\newcommand{\sectiontitle}[1]{\frame {\centering\Huge\color{title} #1}}
+
+
 \hypersetup{
     bookmarks=true,
     unicode=true,
@@ -192,8 +197,15 @@
     \item Wähle Parameter $l_1$, $l_2$, $m$, $g$
     \item Wähle Energie $E$
     \item Wähle Anfangsbedingungen $\theta_1(0)$, $\dot\theta_1(0)$
-    \item Berechne numerisch $\theta_1(t)$, $\dot\theta_1(t)$, $\theta_2(t)$, $\dot\theta_2(t)$ und trage Punkt ins Plot ein, wenn $\theta_2(t)=0$
+    \item Berechne numerisch $\theta_1(t)$, $\dot\theta_1(t)$, $\theta_2(t)$, $\dot\theta_2(t)$ und trage Punkt in Plot ein, wenn $\theta_2(t)=0$
     \end{enumerate}
+    }
+
+    \only<3>
+    {
+    \begin{center}
+    \includemovie[poster,autoplay,controls=true]{11cm}{5.5cm}{videos/schematic.mp4}
+    \end{center}
     }
 }
 
@@ -208,32 +220,22 @@
 \section{Beispiele}
 
 \frame {
-    \frametitle{Beispiel -- stabiler periodischer Orbit}
+    \frametitle{Beispiel -- periodischer Orbit}
 
     \begin{center}
-    \includemovie[poster,autoplay,controls=true]{7.5cm}{7.5cm}{videos/periodisch.mpeg}
+    \includemovie[poster,autoplay,controls=true]{7.5cm}{7.5cm}{videos/stabil1.mp4}
 
     $E=15$, $\theta_1=0$, $p_1=2.63362868$
     \end{center}
 }
 
 \frame {
-    \frametitle{Beispiel -- stabiler periodischer Orbit}
+    \frametitle{Beispiel -- periodischer Orbit}
 
     \begin{center}
-    \includemovie[poster,autoplay,controls=true]{7.5cm}{7.5cm}{videos/periodisch_kompliziert.mpeg}
+    \includemovie[poster,autoplay,controls=true]{7.5cm}{7.5cm}{videos/stabil2.mp4}
 
     $E=15$, $\theta_1=0$, $p_1=-2.78854801$
-    \end{center}
-}
-
-\frame {
-    \frametitle{Beispiel -- instabiler periodischer Orbit}
-
-    \begin{center}
-    \includemovie[poster,autoplay,controls=true]{7.5cm}{7.5cm}{videos/periodisch_instabil.mpeg}
-
-    $E=15$, $\theta_1=0$, $p_1=-4.10536235$
     \end{center}
 }
 
@@ -241,7 +243,7 @@
     \frametitle{Beispiel -- quasiperiodischer Orbit}
 
     \begin{center}
-    \includemovie[poster,autoplay,controls=true]{7.5cm}{7.5cm}{videos/quasiperiodisch.mpeg}
+    \includemovie[poster,autoplay,controls=true]{7.5cm}{7.5cm}{videos/quasiperiodisch.mp4}
 
     $E=15$, $\theta_1=0$, $p_1=-5$
     \end{center}
@@ -251,26 +253,35 @@
     \frametitle{Beispiel -- Chaos}
 
     \begin{center}
-    \includemovie[poster,autoplay,controls=true]{11cm}{5.5cm}{videos/chaos.mpeg}
-    links: $E=15$, $\theta_1=0.8$, $p_1=-4$ \\
-    rechts: $E=15$, $\theta_1=0.8$, $p_1=-4.01$
+    \includemovie[poster,autoplay,controls=true]{11cm}{5.5cm}{videos/chaos.mp4}
+    links:  $E=45$, $\theta_1=3$, $p_1=-1$ \\
+    rechts: $E=45$, $\theta_1=3$, $p_1=-1.01$
     \end{center}
 }
+
 
 \frame {
     \frametitle{Zusammenfassung}
 
+    Poincaré-Plot:
     \begin{itemize}
-        \item Vergleich verschiedener Anfangsbedingungen
-        \item Reduktion der Dimension ohne Verlust an Informationen
-        \item qualitatives Verhalten:
-        \begin{itemize}
-            \item Fixpunkte entsprechen periodische Orbits
-            \item Unterscheidung chaotischer und regulärer Bereiche
-            \item Linien entsprechen quasiperiodischer Orbits
-        \end{itemize}
+        \item Punkte: periodische Lösungen
+        \item Linien: quasiperiodische Lösungen
+        \item wild verstreute Punkte: Chaos
+    \end{itemize}
+
+    \vfill
+
+    Chaos:
+    \begin{itemize}
+        \item System zwar deterministisch, aber...
+        \item ...kleine Ursachen, große Wirkungen
+        \item langfristige Vorhersagen nicht möglich
+        \item Chaos ist nicht Zufall!
     \end{itemize}
 }
+
+\sectiontitle{Fragen?}
 
 
 \end{document}
