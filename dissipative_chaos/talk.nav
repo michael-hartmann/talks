@@ -1,0 +1,55 @@
+\beamer@endinputifotherversion {3.33pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\sectionentry {1}{Lineare Differentialgleichungen}{3}{Lineare Differentialgleichungen}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{L\IeC {\"o}sung}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/5}{L\IeC {\"o}sung}{0}}
+\headcommand {\beamer@framepages {3}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Beispiele in 2D}}\headcommand {\beamer@subsectionpages {3}{5}}
+\headcommand {\slideentry {1}{2}{1}{6/15}{Beispiele in 2D}{0}}
+\headcommand {\beamer@framepages {6}{15}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{16}{Beispiel: ged\IeC {\"a}mpfter harmonischer Oszillator}}\headcommand {\beamer@subsectionpages {6}{15}}
+\headcommand {\slideentry {1}{3}{1}{16/22}{Beispiel: ged\IeC {\"a}mpfter harmonischer Oszillator}{0}}
+\headcommand {\beamer@framepages {16}{22}}
+\headcommand {\sectionentry {2}{autonome, nicht-lineare Differentialgleichungen}{23}{autonome, nicht-lineare Differentialgleichungen}{0}}
+\headcommand {\beamer@sectionpages {3}{22}}
+\headcommand {\beamer@subsectionpages {16}{22}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{23}{Station\IeC {\"a}re Punkte und Stabilit\IeC {\"a}t}}\headcommand {\beamer@subsectionpages {23}{22}}
+\headcommand {\slideentry {2}{1}{1}{23/25}{Station\IeC {\"a}re Punkte und Stabilit\IeC {\"a}t}{0}}
+\headcommand {\beamer@framepages {23}{25}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{26}{Beispiel: Fadenpendel}}\headcommand {\beamer@subsectionpages {23}{25}}
+\headcommand {\slideentry {2}{2}{1}{26/32}{Beispiel: Fadenpendel}{0}}
+\headcommand {\beamer@framepages {26}{32}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{33}{komplexeres Beispiel}}\headcommand {\beamer@subsectionpages {26}{32}}
+\headcommand {\slideentry {2}{3}{1}{33/34}{komplexeres Beispiel}{0}}
+\headcommand {\beamer@framepages {33}{34}}
+\headcommand {\slideentry {2}{3}{2}{35/36}{komplexeres Beispiel}{0}}
+\headcommand {\beamer@framepages {35}{36}}
+\headcommand {\slideentry {2}{3}{3}{37/37}{komplexeres Beispiel}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\sectionentry {3}{nicht-autonome, nicht-lineare Differentialgleichungen}{38}{nicht-autonome, nicht-lineare Differentialgleichungen}{0}}
+\headcommand {\beamer@sectionpages {23}{37}}
+\headcommand {\beamer@subsectionpages {33}{37}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{38}{Motivation}}\headcommand {\beamer@subsectionpages {38}{37}}
+\headcommand {\slideentry {3}{1}{1}{38/39}{Motivation}{0}}
+\headcommand {\beamer@framepages {38}{39}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{40}{Beispiel}}\headcommand {\beamer@subsectionpages {38}{39}}
+\headcommand {\slideentry {3}{2}{1}{40/41}{Beispiel}{0}}
+\headcommand {\beamer@framepages {40}{41}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{42}{Bifurkationsdiagramm}}\headcommand {\beamer@subsectionpages {40}{41}}
+\headcommand {\slideentry {3}{3}{1}{42/42}{Bifurkationsdiagramm}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{43}{Seltsamer Attraktor}}\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\slideentry {3}{4}{1}{43/44}{Seltsamer Attraktor}{0}}
+\headcommand {\beamer@framepages {43}{44}}
+\headcommand {\slideentry {3}{4}{2}{45/45}{Seltsamer Attraktor}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {43}{45}}
+\headcommand {\beamer@sectionpages {38}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\def \inserttotalframenumber {15}}

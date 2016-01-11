@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Lineare Differentialgleichungen}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{L\IeC {\"o}sung}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Beispiele in 2D}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Beispiel: ged\IeC {\"a}mpfter harmonischer Oszillator}{16}{0}{1}
+\beamer@sectionintoc {2}{autonome, nicht-lineare Differentialgleichungen}{23}{0}{2}
+\beamer@subsectionintoc {2}{1}{Station\IeC {\"a}re Punkte und Stabilit\IeC {\"a}t}{23}{0}{2}
+\beamer@subsectionintoc {2}{2}{Beispiel: Fadenpendel}{26}{0}{2}
+\beamer@subsectionintoc {2}{3}{komplexeres Beispiel}{33}{0}{2}
+\beamer@sectionintoc {3}{nicht-autonome, nicht-lineare Differentialgleichungen}{38}{0}{3}
+\beamer@subsectionintoc {3}{1}{Motivation}{38}{0}{3}
+\beamer@subsectionintoc {3}{2}{Beispiel}{40}{0}{3}
+\beamer@subsectionintoc {3}{3}{Bifurkationsdiagramm}{42}{0}{3}
+\beamer@subsectionintoc {3}{4}{Seltsamer Attraktor}{43}{0}{3}
