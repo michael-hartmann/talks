@@ -127,10 +127,15 @@ cdef class DoublePendulum:
         cdef double ml2   = self.m*self.l**2
         cdef double omega = self.omega
         cdef double a,b,c
+        cdef double root
 
         a = 0.5
         b = dtheta1*ccos(theta1)
         c = dtheta1**2+2*omega*(1-ccos(theta1))-E/(ml2)
+
+        root = b**2-4*a*c
+        if root < 0:
+            raise ValueError("not possible")
 
         return (-b+csqrt(b**2-4*a*c))/(2*a)
 
@@ -193,10 +198,5 @@ cdef class DoublePendulum:
 
                 if len(points) >= N:
                     break
-
-                y[0] = ylast[0]
-                y[1] = 0
-                y[2] = ylast[2]
-                y[3] = ylast[3]
 
         return points
