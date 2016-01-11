@@ -85,7 +85,7 @@ progress = 0
 
 for theta1,dtheta1,N in iv:
     # poincare punkte
-    points[ (theta1,dtheta1) ] = pendulum.poincare(E0, theta1, dtheta1, N)
+    points[ (theta1,dtheta1) ] = pendulum.poincare(E0, theta1, dtheta1, N, h=5e-5)
     progress += 1
     print("%.2f%%" % (progress/len(iv)*100))
 
