@@ -96,3 +96,35 @@ Vortrag über die logistische Abbildung.
  * Language: German
  * Directory: logisticmap/
  * Occasion: Kaffeeseminar
+
+
+Was ist Chaos? 
+==============
+
+Vortrag über Chaos am Beispiel des Doppelpendels im Rahmen des Schülerinfotages
+2015.
+
+ * Language: German
+ * Directory: chaos_schuelerinfotag/
+ * Occasion: Schülerinfotag 2015
+
+
+Chaos I: Die Logistische Abbildung 
+==================================
+
+Eine kurze Einführung in chaotische Abbildungen anhand der Logistischen
+Abbildung.
+
+ * Language: German
+ * Directory: logisticmap/
+ * Occasion: Kaffeeseminar
+
+
+Chaos II: Differentialgleichungen 
+=================================
+
+Eine kurze Einführung in chaotische Differentialgleichungen.
+
+ * Language: German
+ * Directory: dissipative_chaos/
+ * Occasion: Kaffeeseminar
