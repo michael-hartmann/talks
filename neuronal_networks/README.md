@@ -2,7 +2,7 @@ Künstliche Intelligenz mit neuronalen Netzen
 ============================================
 
  * [Vortrag als PDF](talk.pdf?raw=true)
- * [http://neuralnetworksanddeeplearning.com/](Neural Networks and Deep Learning) von Mcihael Nielsen
+ * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) von Mcihael Nielsen
 
 Im Bereich künstlicher Intelligenz hat sich in letzter Zeit viel getan. Seit
 2011 gibt es Siri, eine künstliche Intelligenz mit der man sich auf seinem
@@ -17,5 +17,5 @@ Dieser Vortrag will zum einen zeigen, was in den letzten Jahren passiert ist,
 und zum anderen erklären, wie neuronale Netze funktionieren. Die Funktionsweise
 von neuronalen Netzen wird erklärt Anhand des Beispiels von Erkennen von
 Ziffern. Das Beispiel stammt aus dem Buch
-[http://neuralnetworksanddeeplearning.com/](Neural Networks and Deep Learning)
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 von Michael Nielsen.
