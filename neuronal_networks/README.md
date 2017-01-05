@@ -2,7 +2,7 @@ Künstliche Intelligenz mit neuronalen Netzen
 ============================================
 
  * [Vortrag als PDF](talk.pdf?raw=true)
- * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) von Mcihael Nielsen
+ * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) von Michael Nielsen
 
 Im Bereich künstlicher Intelligenz hat sich in letzter Zeit viel getan. Seit
 2011 gibt es Siri, eine künstliche Intelligenz mit der man sich auf seinem
