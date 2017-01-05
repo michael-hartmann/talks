@@ -45,4 +45,4 @@ for alpha0 in (2.5,2.9):
 plot(g,-5*pi,0.7)
 plot(g,5*pi,-0.7)
 
-g.writePDFfile()
+g.writePDFfile("blA")
