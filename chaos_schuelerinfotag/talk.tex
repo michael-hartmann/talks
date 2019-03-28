@@ -18,6 +18,12 @@
 \usetheme{Boadilla}
 \setbeamertemplate{footline}%{infolines theme}
 
+\renewcommand{\rmdefault}{futs} % Utopia as text font
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{fourier-orns}
+
+
 \usecolortheme{lily}
 \usefonttheme{serif}
 \useinnertheme{circles}
@@ -58,7 +64,7 @@
 %\subtitle{Einführung am Beispiel des Doppelpendels}
 \institute{Theoretische Physik I}
 \author{Michael Hartmann}
-\date{18. November 2015}
+\date{21. November 2018}
 
 
 \titlegraphic{\includegraphics[scale=0.4]{images/title.png}}
@@ -107,12 +113,12 @@
 \frame {
     \frametitle{Wovon hängt die Bewegung ab?}
 
-    %\only<2>
+    \only<2>
     {
     Parameter:
     \begin{itemize}
-    \item Massen $m_1$, $m_2$
-    \item Längen $l_1$, $l_2$
+    \item Masse $m$
+    \item Länge $l$
     \item Erdbeschleunigung $g$
     \end{itemize}
 
@@ -194,10 +200,10 @@
 
     Poincaré-Schnitt:
     \begin{enumerate}
-    \item Wähle Parameter $l_1$, $l_2$, $m$, $g$
+    \item Wähle Parameter $l$, $m$, $g$
     \item Wähle Energie $E$
-    \item Wähle Anfangsbedingungen $\theta_1(0)$, $\dot\theta_1(0)$
-    \item Berechne numerisch $\theta_1(t)$, $\dot\theta_1(t)$, $\theta_2(t)$, $\dot\theta_2(t)$ und trage Punkt in Plot ein, wenn $\theta_2(t)=0$
+    \item Wähle Anfangsbedingungen $\theta_1(0)$, $\dot\theta_1(0)$, $\theta_2(0)$, $\dot\theta_2(0)$
+    \item Berechne numerisch $\theta_1(t)$, $\dot\theta_1(t)$, $\theta_2(t)$, $\dot\theta_2(t)$ und trage Punkt in Plot ein, wenn $\theta_2(t)=0$ und $\dot\theta_2 > 0$
     \end{enumerate}
     }
 
